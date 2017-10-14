@@ -1,25 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ミスを見つけて修正しよう（HTMLタグ基礎）｜修正シリーズ</title>
-<style type="text/css">
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>ミスを見つけて修正しよう（HTMLタグ基礎）｜修正シリーズ</title>
+  <style type="text/css">
+
+  </style>
 </head>
+
 <body>
-<h1>ブラウザ戦争</h1>
-<p>1990年代前半、Netscape Navigator（NN）はもっとも幅広く使われる主要なブラウザであった。</p>
-<p>1995年に発売されたMicrosoft Windows 95はそれまでのWindowsとの大きな違いの1つとしてNOS（Network Operating System）機能を実装したことが挙げられる。ネットワークプロトコルとしてインターネットで標準となっているTCP/IPも実装されたことから、ウェブブラウザをインストールするだけでWindows 95でウェブを利用する事が可能となった。それにより、World Wide Webは一般に普及し始めた。</p>
-<p>この頃、MicrosoftはInternet Explorer（IE）の基礎となるNCSA MosaicのライセンスをNCSAから取得した。IE 1.0はMicrosoft Windows 95 Plus!の一部として1995年8月にWindows 95と同時に発売された。</p>
-<p>NNの新バージョン（後のNetscape Communicator）とIEは激しいシェア争いを繰り広げ頻繁なバージョンアップを繰り返すこととなる。しかし、安定性や安全性の向上より他方との差別化を優先したため、頻繁なクラッシュやセキュリティホール、ウェブ標準とは異なるHTMLレンダリングエンジンでユーザに混乱をもたらすこととなる。</p>
-<p>マイクロソフトはIEの新バージョン2.0を1995年11月、1996年8月にはバージョン3.0を無償で公開し、新たに発売されるWindowsに組み込まれることとなる。Netscape Navigatorは当時シェアウェアとして有料であったがIEは無償で公開されていた。IEでは基本的に売り上げが無い以上、Windowsなど他のマイクロソフト製品の売り上げから開発費が出ているとして、マイクロソフト製品が不当価格として批判も出るようになった。</p>
-<p>それに加え、IEを抱き合わせてWindowsを販売しているとして独占禁止法に違反するとして提訴も行われるようになった。しかし標準的な文章形式の一つとなったHTML表示機能とNOS機能はOSの標準的な機能と考えられるようになっており、その2つを組み合わせればウェブブラウザになることから、OSへの抱き合わせ批判は意味を持たないものとなってしまっていった。</p>
-<p>Windows 98（正確にはWindows 95の最終バージョン）からはIEがWindowsにOSの1機能として搭載されるようになったこともあり、</p>
-<p>市場におけるWindowsの圧倒的シェアを背景にブラウザのシェア争い自体が意味を持たないものとなってしまっていった。</p>
-<p>また、当時はHTMLの手書きにより制作されたサイトが多かったが、そのようなHTMLの中には正しく記述されていないものも少なくなかった。Netscape NavigatorはそのようなHTMLの表示の補正を積極的に行わなかったが、それに対してIEは積極的に補正を行った。同時に、CSSの処理も Netscape Navigatorは対応が遅れていた。結果として、Netscape NavigatorではレイアウトがずれているがIEではまともに表示できている、というページが多く出現することとなり、Netscape Navigator離れを加速する一因となった。</p>
-<p>また、JavaScriptについてもアクセスAPIとしてNetscape Navigatorが採用したレイヤーは非常に使い勝手が悪く、IEのアクセスAPIであるDOMと比較して完全に劣っていた。(このDOMはW3C標準のDOMとは別物。ただし、W3CのDOMでは機能追加に伴って記法が変わった程度で設計はほぼIEのDOMを踏襲している)。この2種類のアクセスAPIはまったく互換性がなかったため、コストの問題からどちらかしか対応できない場合により優れた仕様であるIEのDOMを製作者が採用するようになった。</p>
-<p>そのような理由により<strong>2000年にはIEが市場シェアのほぼ全てを獲得</strong>して第一次ブラウザ戦争は終結とされる。米国では独占禁止法違反による裁判が行われたが、裁判がNetscape Navigatorやその他のブラウザのシェア回復に寄与することはなかった。</p>
-<hr />
-<p>Copyright 20XX Digital Hollywood Co.,Ltd. All Rights Reserved.</p>
+  <h1>ブラウザ戦争</h1>
+  <p>1990年代前半、Netscape Navigator（NN）はもっとも幅広く使われる主要なブラウザであった。</p>
+  <p>1995年に発売されたMicrosoft Windows 95はそれまでのWindowsとの大きな違いの1つとしてNOS（Network Operating System）機能を実装したことが挙げられる。ネットワークプロトコルとしてインターネットで標準となっているTCP/IPも実装されたことから、ウェブブラウザをインストールするだけでWindows 95でウェブを利用する事が可能となった。それにより、World Wide Webは一般に普及し始めた。</p>
+  <p>この頃、MicrosoftはInternet Explorer（IE）の基礎となるNCSA MosaicのライセンスをNCSAから取得した。IE 1.0はMicrosoft Windows 95 Plus!の一部として1995年8月にWindows 95と同時に発売された。</p>
+  <p>NNの新バージョン（後のNetscape Communicator）とIEは激しいシェア争いを繰り広げ頻繁なバージョンアップを繰り返すこととなる。しかし、安定性や安全性の向上より他方との差別化を優先したため、頻繁なクラッシュやセキュリティホール、ウェブ標準とは異なるHTMLレンダリングエンジンでユーザに混乱をもたらすこととなる。</p>
+  <p>マイクロソフトはIEの新バージョン2.0を1995年11月、1996年8月にはバージョン3.0を無償で公開し、新たに発売されるWindowsに組み込まれることとなる。Netscape Navigatorは当時シェアウェアとして有料であったがIEは無償で公開されていた。IEでは基本的に売り上げが無い以上、Windowsなど他のマイクロソフト製品の売り上げから開発費が出ているとして、マイクロソフト製品が不当価格として批判も出るようになった。</p>
+  <p>それに加え、IEを抱き合わせてWindowsを販売しているとして独占禁止法に違反するとして提訴も行われるようになった。しかし標準的な文章形式の一つとなったHTML表示機能とNOS機能はOSの標準的な機能と考えられるようになっており、その2つを組み合わせればウェブブラウザになることから、OSへの抱き合わせ批判は意味を持たないものとなってしまっていった。</p>
+  <p>Windows 98（正確にはWindows 95の最終バージョン）からはIEがWindowsにOSの1機能として搭載されるようになったこともあり、</p>
+  <p>市場におけるWindowsの圧倒的シェアを背景にブラウザのシェア争い自体が意味を持たないものとなってしまっていった。</p>
+  <p>また、当時はHTMLの手書きにより制作されたサイトが多かったが、そのようなHTMLの中には正しく記述されていないものも少なくなかった。Netscape NavigatorはそのようなHTMLの表示の補正を積極的に行わなかったが、それに対してIEは積極的に補正を行った。同時に、CSSの処理も Netscape Navigatorは対応が遅れていた。結果として、Netscape NavigatorではレイアウトがずれているがIEではまともに表示できている、というページが多く出現することとなり、Netscape
+    Navigator離れを加速する一因となった。</p>
+  <p>また、JavaScriptについてもアクセスAPIとしてNetscape Navigatorが採用したレイヤーは非常に使い勝手が悪く、IEのアクセスAPIであるDOMと比較して完全に劣っていた。(このDOMはW3C標準のDOMとは別物。ただし、W3CのDOMでは機能追加に伴って記法が変わった程度で設計はほぼIEのDOMを踏襲している)。この2種類のアクセスAPIはまったく互換性がなかったため、コストの問題からどちらかしか対応できない場合により優れた仕様であるIEのDOMを製作者が採用するようになった。</p>
+  <p>そのような理由により<strong>2000年にはIEが市場シェアのほぼ全てを獲得</strong>して第一次ブラウザ戦争は終結とされる。米国では独占禁止法違反による裁判が行われたが、裁判がNetscape Navigatorやその他のブラウザのシェア回復に寄与することはなかった。</p>
+  <hr/>
+  <p>Copyright 20XX Digital Hollywood Co.,Ltd. All Rights Reserved.</p>
 </body>
+
 </html>
